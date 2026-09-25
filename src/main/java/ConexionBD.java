@@ -6,7 +6,7 @@ public class ConexionBD {
     private static final String URL = "jdbc:mysql://localhost:3306/taller_mecanico";
     private static final String USER = "root";
     private static final String PASSWORD = "";
-    private static final string;
+     private static final String hola = "";
     public static Connection getConnection() {
         try {
             return DriverManager.getConnection(URL, USER, PASSWORD);
